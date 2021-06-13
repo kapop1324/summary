@@ -11,6 +11,9 @@
 
 	$(document).ready(function() {
 		
+		$("#project_detail0").on('click', function() {
+			$('#modalBox0').modal('show');
+		});
 		$("#project_detail1").on('click', function() {
 			$('#modalBox1').modal('show');
 		});
@@ -164,22 +167,13 @@
 							</td>
 							<td style="width:70%; text-align:center;">DML, DCL, TCL, DDL을 다를수 있으며 윈도우함수도 다룰수있습니다.</td>
 							
-						</tr>
-						<tr>
-							<td style="width:15%; text-align:center;">VUE</td>
-							<td style="width:10%; text-align:center;">
-								<img src="./img/oracle.png">
-							</td>
-							<td style="width:70%; text-align:center;">기본적인 CRUD를 다룰 수 있습니다.</td>
-							
-						</tr>
-						
+						</tr>						
 						<tr>
 							<td style="width:15%; text-align:center;">SPRING</td>
 							<td style="width:10%; text-align:center;">
 								<img src="./img/spring.png">
 							</td>
-							<td style="width:70%; text-align:center;">스프링의 구조를 숙지하고있으며 웹서비스 개발 경험이 있습니다.</td>
+							<td style="width:70%; text-align:center;">스프링의 구조를 숙지하고있으며 프로젝트 경험이 있습니다.</td>
 							
 						</tr>
 						<tr>
@@ -187,7 +181,15 @@
 							<td style="width:10%; text-align:center;">
 								<img src="./img/springboot.png">
 							</td>
-							<td style="width:70%; text-align:center;">스프링의 숙련도를 통해서 어느정도 다룰수 잇습니다.</td>
+							<td style="width:70%; text-align:center;">스프링 레거시처럼 구현이가능하며 vue와같은 프론트 부분과 연동한 백엔드 서버로 만들수있습니다.</td>
+							
+						</tr>
+							<tr>
+							<td style="width:15%; text-align:center;">VUE</td>
+							<td style="width:10%; text-align:center;">
+								<img src="./img/vue.png">
+							</td>
+							<td style="width:70%; text-align:center;">프론트엔드 부분으로서 웹페이지 제작이 가능합니다.</td>
 							
 						</tr>
 					</tbody>
@@ -258,6 +260,19 @@
 						</tr>
 					</thead>
 					<tbody>
+						<tr>
+							<td style="width:20%; text-align:center;" id="ptd1">HousPlanet</td>
+							<td style="width:50%; text-align:center;" id="ptd2">
+								<p>아파트매매 정보와 리뷰를 보여주는 웹사이트</p>
+								<p>#SpringBoot #Vue.js #Mysql #Googlemap #Chart.js</p>
+							</td>
+							<td style="width:10%;  text-align:center;" id="ptd3">100%</td>
+							<td style="width:10%; text-align:center;" id="ptd4">
+								<button class="button" id="project_detail0">
+									...
+								</button>
+							</td>
+						</tr>
 						<tr>
 							<td style="width:20%; text-align:center;" id="ptd1">코로나복합디스펜서</td>
 							<td style="width:50%; text-align:center;" id="ptd2">
@@ -418,6 +433,94 @@
 	
 </body>
 
+<div id="modalBox0" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="myModalLabel">House Planet</h4>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+</div>
+<div class="modal-body">
+ <div class="row">
+ 	<div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="./img/houseplanet1.PNG" alt="First slide">
+    </div>
+     <div class="carousel-item ">
+      <img class="d-block w-100" src="./img/houseplanet2.PNG" alt="First slide">
+    </div>
+     <div class="carousel-item ">
+      <img class="d-block w-100" src="./img/houseplanet3.PNG" alt="First slide">
+    </div>
+     <div class="carousel-item ">
+      <img class="d-block w-100" src="./img/houseplanet4.PNG" alt="First slide">
+    </div>
+     <div class="carousel-item ">
+      <img class="d-block w-100" src="./img/houseplanet5.PNG" alt="First slide">
+    </div>
+     <div class="carousel-item ">
+      <img class="d-block w-100" src="./img/houseplanet6.PNG" alt="First slide">
+    </div>
+     <div class="carousel-item ">
+      <img class="d-block w-100" src="./img/houseplanet7.PNG" alt="First slide">
+    </div>
+     <div class="carousel-item ">
+      <img class="d-block w-100" src="./img/houseplanet8.PNG" alt="First slide">
+    </div>
+     <div class="carousel-item ">
+      <img class="d-block w-100" src="./img/houseplanet9.PNG" alt="First slide">
+    </div>
+     <div class="carousel-item ">
+      <img class="d-block w-100" src="./img/houseplanet10.PNG" alt="First slide">
+    </div>
+     <div class="carousel-item ">
+      <img class="d-block w-100" src="./img/houseplanet11.PNG" alt="First slide">
+    </div>
+     <div class="carousel-item ">
+      <img class="d-block w-100" src="./img/houseplanet12.PNG" alt="First slide">
+    </div>
+     <div class="carousel-item ">
+      <img class="d-block w-100" src="./img/houseplanet13.PNG" alt="First slide">
+    </div>
+     <div class="carousel-item ">
+      <img class="d-block w-100" src="./img/houseplanet14.PNG" alt="First slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+ </div>
+ <div class="row">
+ 	<div class="row" style="margin-top:50px;">
+ 		<h5>개요</h5>
+ 	</div>
+ 	<div class="row" style="margin-top:10px;">
+ 		프론트엔드 툴 vue와 백엔드 툴 spring boot를 연동하였습니다. 주된 내용은 아파트 매매에 대한 정보를 보여주는 웹페이지로 관련 정보를 axios로 공공데이터포털에서 가져옵니다.
+ 		이를 보기좋게 나열하고 여기서 가져오는 값들을 chartjs를 통해서 보여줍니다. 이외에 주가되는 리뷰게시판과 관리자만 작성이 가능한 공지사항게시판을 제작하였으며 전부 페이징이
+ 		적용되어있고 리뷰게시판에서는 댓글도 달 수 있게 하였습니다.
+ 	</div>
+ 	<div class="row" style="margin-top:50px;">
+ 		<h5>소감</h5>
+ 	</div>
+ 	<div class="row" style="margin-top:10px;">
+ 		처음으로 백엔드와 프로트엔드 툴을 달리해서 개발을 해봤습니다. vue의 사용이 익숙치는 않았지만 어떻게든 해냈습니다. 또한 제대로된 협업을 해봐서 뜻깊었습니다.
+ 	</div>
+ </div>
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div>
+
+
 <div id="modalBox1" class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 <div class="modal-dialog" role="document">
 <div class="modal-content">
@@ -451,10 +554,43 @@
       <img class="d-block w-100" src="./img/covid5-7.PNG" alt="Seventh slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="./img/covid5-8.PNG" alt="Eighth slide">
+      <img class="d-block w-100" src="./img/covid5-10.PNG" alt="Eighth slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="./img/covid5-9.PNG" alt="Nineth slide">
+      <img class="d-block w-100" src="./img/covid5-11.PNG" alt="Nineth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./img/covid5-12.PNG" alt="Tenth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./img/covid5-13.PNG" alt="Eleventh slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./img/covid5-13-2.PNG" alt="Tweny slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./img/covid5-14.PNG" alt="Thirtyth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./img/covid5-14-2.PNG" alt="Fourtyth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./img/covid5-15.PNG" alt="Fifteenth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./img/covid5-16.PNG" alt="Sixteenth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./img/covid5-17.PNG" alt="Seveteenth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./img/covid5-18.PNG" alt="Eighteens slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./img/covid5-8.PNG" alt="Nineteenth slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="./img/covid5-9.PNG" alt="Twelveth slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -683,4 +819,4 @@
 </div>
 
 
-</html
+</html>
