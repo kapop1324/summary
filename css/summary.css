@@ -2,7 +2,7 @@
 
 body{
 	background-color: #fcfcfc;
-	height: 6500px;
+	height: 6600px;
 	color:#3f4165;
 }
 
@@ -96,7 +96,7 @@ tbody tr{
 #project{
 	margin-top:50px;
 	width:100%;
-	height:1000px;
+	height:1100px;
 }
 
 #project_box1 p{
@@ -108,7 +108,7 @@ tbody tr{
 #project_box2{
 	margin-top:10px;
 	width:100%;
-	height:800px;
+	height:900px;
 }
 
 #project button{
